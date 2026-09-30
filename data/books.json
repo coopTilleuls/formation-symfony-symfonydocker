@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Les Misérables",
+        "author": "victor.hugo"
+    },
+    {
+        "id": 2,
+        "title": "Notre-Dame de Paris",
+        "author": "victor.hugo"
+    },
+    {
+        "id": 3,
+        "title": "Germinal",
+        "author": "emile.zola"
+    },
+    {
+        "id": 4,
+        "title": "L'Assommoir",
+        "author": "emile.zola"
+    },
+    {
+        "id": 5,
+        "title": "Vingt mille lieues sous les mers",
+        "author": "jules.verne"
+    },
+    {
+        "id": 6,
+        "title": "Le Tour du monde en quatre-vingts jours",
+        "author": "jules.verne"
+    },
+    {
+        "id": 7,
+        "title": "Les Trois Mousquetaires",
+        "author": "alexandre.dumas"
+    },
+    {
+        "id": 8,
+        "title": "Le Comte de Monte-Cristo",
+        "author": "alexandre.dumas"
+    },
+    {
+        "id": 9,
+        "title": "La Mare au diable",
+        "author": "george.sand"
+    },
+    {
+        "id": 10,
+        "title": "Madame Bovary",
+        "author": "gustave.flaubert"
+    },
+    {
+        "id": 11,
+        "title": "Bel-Ami",
+        "author": "guy.maupassant"
+    },
+    {
+        "id": 12,
+        "title": "Le Horla",
+        "author": "guy.maupassant"
+    }
+]
