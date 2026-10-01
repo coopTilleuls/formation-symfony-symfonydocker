@@ -2,7 +2,7 @@
 
 namespace App\Security\Voter;
 
-use App\Model\Book;
+use App\Entity\Book;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Authorization\Voter\Vote;
 use Symfony\Component\Security\Core\Authorization\Voter\Voter;
@@ -22,6 +22,6 @@ final class BookVoter extends Voter
     protected function voteOnAttribute(string $attribute, mixed $subject, TokenInterface $token, ?Vote $vote = null): bool
     {
         return \in_array('ROLE_ADMIN', $token->getRoleNames(), true)
-            || $subject->author === $token->getUserIdentifier();
+            || $subject->getAuthor() === $token->getUserIdentifier();
     }
 }
